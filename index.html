@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#b91c1c" />
+  <meta name="description" content="An interactive blood donation awareness guide based on the published donor process of Dr. Hedgewar Blood Centre, Nagpur." />
+  <title>Drop by Drop | Dr. Hedgewar Blood Centre Journey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Drop by Drop home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 36 42" role="img"><path d="M18 2C14 9 4 19 4 27a14 14 0 0 0 28 0C32 19 22 9 18 2Z" fill="currentColor"/><path d="M11 27c0-4 3-8 6-11" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2.5" opacity=".78"/></svg>
+        </span>
+        <span class="brand-copy"><strong>drop by drop</strong><small>Blood donation awareness</small></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primaryNav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="primaryNav" aria-label="Main navigation">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#centre">At Hedgewar</a>
+        <a class="nav-link" href="#journey">Donation journey</a>
+        <a class="nav-link" href="#aftercare">After donation</a>
+        <a class="nav-link" href="#questions">FAQs & quiz</a>
+        <a class="nav-cta" href="#feedback">Share feedback <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero section-anchor" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> A community awareness project</div>
+          <h1>One small act.<br /><span>A world of</span> <em>difference.</em></h1>
+          <p class="hero-intro">New to blood donation? Explore the process published by Dr. Hedgewar Blood Centre, Nagpur—from registration and counselling to screening, donation, recovery and what happens to donated blood afterwards.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#journey">Explore the journey <span aria-hidden="true">→</span></a>
+            <a class="button button-quiet" href="#feedback">Share your experience <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-trustline">
+            <span class="trust-icon" aria-hidden="true">✳</span>
+            <span>Centre-specific information, explained in a friendly step-by-step guide.</span>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="Illustration showing a drop of blood and the steps in the donation journey" role="img">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="hero-note note-top"><span class="note-icon icon-soft-red">♡</span><span><strong>Learn at your pace</strong><small>Simple, step-by-step guidance</small></span></div>
+          <div class="donation-card">
+            <div class="card-topline"><span class="live-dot"></span> YOUR DONATION JOURNEY <span class="tiny-arrow">↗</span></div>
+            <div class="drop-illustration">
+              <div class="drop-shadow"></div>
+              <svg class="big-drop" viewBox="0 0 150 170" aria-hidden="true"><defs><linearGradient id="dropGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ed5555"/><stop offset="1" stop-color="#a81420"/></linearGradient></defs><path d="M75 7C59 33 21 69 21 103a54 54 0 0 0 108 0C129 69 91 33 75 7Z" fill="url(#dropGrad)"/><path d="M48 91c2-12 11-24 20-34" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".5" fill="none"/><circle cx="98" cy="119" r="7" fill="#fff" opacity=".18"/></svg>
+              <div class="mini-heart">♡</div>
+            </div>
+            <div class="card-caption"><strong>Every step matters.</strong><span>Get familiar with the process before you visit.</span></div>
+            <div class="mini-steps" aria-hidden="true"><span class="mini-step active"></span><span class="mini-step"></span><span class="mini-step"></span><span class="mini-step"></span><span class="mini-step"></span><span class="mini-step"></span></div>
+          </div>
+          <div class="hero-note note-bottom"><span class="note-icon icon-soft-green">✓</span><span><strong>Clear, friendly information</strong><small>For first-time and curious visitors</small></span></div>
+          <div class="art-spark spark-one">✳</div><div class="art-spark spark-two">✦</div>
+        </div>
+      </div>
+      <div class="hero-bottom-rule"></div>
+    </section>
+
+    <!-- VALUE STRIP -->
+    <section class="value-strip" aria-label="Website features">
+      <div class="container value-grid">
+        <div class="value-item"><span class="value-number">01</span><span><strong>Explore</strong><small>Six stages at the centre</small></span></div>
+        <div class="value-item"><span class="value-number">02</span><span><strong>Understand</strong><small>Answers to common questions</small></span></div>
+        <div class="value-item"><span class="value-number">03</span><span><strong>Check your learning</strong><small>A short knowledge quiz</small></span></div>
+        <div class="value-item"><span class="value-number">04</span><span><strong>Share feedback</strong><small>Help us improve this resource</small></span></div>
+      </div>
+    </section>
+
+
+
+    <!-- HEDGEWAR BLOOD CENTRE: VERIFIED PUBLIC INFORMATION -->
+    <section class="section centre-section section-anchor" id="centre">
+      <div class="container centre-grid">
+        <div class="centre-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> Know the centre</div>
+          <h2>A closer look at<br /><em>Dr. Hedgewar.</em></h2>
+          <p class="centre-lead">This guide is built around the donor process publicly described by Dr. Hedgewar Blood Centre, Nagpur. The goal is to make the centre's information easier to explore—not to replace its staff, official instructions or medical assessment.</p>
+          <div class="centre-facts">
+            <article class="centre-fact"><span class="fact-icon">◷</span><div><strong>About an hour</strong><p>The centre's published page says the full donor visit usually takes around an hour.</p></div></article>
+            <article class="centre-fact"><span class="fact-icon">♡</span><div><strong>Guidance throughout</strong><p>The page describes donors being attended by counsellors and doctors through the procedure.</p></div></article>
+            <article class="centre-fact"><span class="fact-icon">✓</span><div><strong>Voluntary donation</strong><p>The centre's quality policy describes collecting blood from healthy, voluntary, non-remunerated donors.</p></div></article>
+          </div>
+          <div class="centre-actions">
+            <a class="button button-primary" href="https://www.hedgewarbloodbanknagpur.org/bloodDonationProcess.php" target="_blank" rel="noopener noreferrer">Read official process <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline" href="https://hedgewarbloodbanknagpur.org/regDonor.php" target="_blank" rel="noopener noreferrer">Official donor registration <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="centre-small-note">The registration link opens the blood bank's own website. This CEP website does not register donors or collect donor identity or health details.</p>
+        </div>
+
+        <aside class="centre-profile-card" aria-label="Dr. Hedgewar Blood Centre information">
+          <div class="centre-photo-wrap">
+            <img src="https://www.hedgewarbloodbanknagpur.org/images/assetImage/hbbNew.jpg" alt="Building shown on Dr. Hedgewar Blood Centre's official website" loading="lazy" />
+            <span class="photo-label"><span class="live-dot"></span> Nagpur, Maharashtra</span>
+          </div>
+          <div class="centre-profile-body">
+            <p class="profile-kicker">THE BLOOD CENTRE</p>
+            <h3>Dr. Hedgewar Blood Centre</h3>
+            <p class="profile-description">The centre's website says its community-service project began in 1993 and lists NABH accreditation. Its published services include whole blood and blood components.</p>
+            <div class="profile-link-row"><span>Official website</span><a href="https://www.hedgewarbloodbanknagpur.org/" target="_blank" rel="noopener noreferrer">Visit site ↗</a></div>
+            <div class="profile-link-row"><span>Donation process</span><a href="https://www.hedgewarbloodbanknagpur.org/bloodDonationProcess.php" target="_blank" rel="noopener noreferrer">Read details ↗</a></div>
+            <div class="profile-link-row"><span>Consent & screening</span><a href="https://hedgewarbloodbanknagpur.org/regDonor.php" target="_blank" rel="noopener noreferrer">Read donor consent ↗</a></div>
+          </div>
+        </aside>
+      </div>
+
+      <div class="container contact-band">
+        <div class="contact-band-heading"><span class="contact-band-icon">⌖</span><div><strong>Planning a visit?</strong><p>Contact details listed on the centre's website. Confirm current details directly before travelling.</p></div></div>
+        <div class="contact-detail"><span>Address</span><strong>Anantrao Bhide Parisar, 184/2, 2nd Floor, near Ramnagar Square, Shivaji Nagar, Nagpur 440010</strong></div>
+        <div class="contact-detail"><span>Phone</span><strong><a href="tel:07122528292">0712-2528292</a> · <a href="tel:07122538900">0712-2538900</a></strong></div>
+        <div class="contact-detail"><span>Mobile / toll-free</span><strong><a href="tel:9922407171">9922407171</a> · <a href="tel:9881000203">9881000203</a> · <a href="tel:6557777">6557777</a></strong></div>
+        <div class="contact-detail"><span>Email</span><strong><a href="mailto:hbbnagpur687@gmail.com">hbbnagpur687@gmail.com</a></strong></div>
+        <p class="contact-source">Source: <a href="https://www.hedgewarbloodbanknagpur.org/contactUs.php" target="_blank" rel="noopener noreferrer">official contact page ↗</a>. Contact information can change; please verify with the centre.</p>
+      </div>
+    </section>
+
+        <!-- JOURNEY -->
+    <section class="section journey-section section-anchor" id="journey">
+      <div class="container">
+        <div class="section-heading split-heading">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-dot"></span> The main experience</div>
+            <h2>What happens at<br /><em>each stage?</em></h2>
+          </div>
+          <p>These six steps turn the centre's published donor process into an easier-to-follow guide. Select any stage to learn what the team describes, which checks take place and what to ask if you are unsure.</p>
+        </div>
+
+        <div class="journey-layout">
+          <aside class="journey-sidebar" aria-label="Donation journey stages">
+            <div class="sidebar-kicker">THE DONOR VISIT <span>6 STAGES</span></div>
+            <div class="journey-step-list" id="journeyStepList">
+              <!-- Filled by script.js -->
+            </div>
+            <div class="sidebar-tip"><span class="tip-star">✳</span><p><strong>Remember</strong><br />The blood bank team is there to guide you and answer your questions.</p></div>
+          </aside>
+
+          <article class="journey-detail" aria-live="polite" aria-atomic="true">
+            <div class="journey-detail-top">
+              <span class="stage-label" id="stageLabel">STAGE 01 / 06</span>
+              <span class="detail-tag"><span class="detail-tag-dot"></span> YOUR GUIDE</span>
+            </div>
+            <div class="detail-content-grid">
+              <div class="detail-copy">
+                <div class="detail-icon" id="detailIcon" aria-hidden="true">⌂</div>
+                <h3 id="stageTitle">Before you donate</h3>
+                <p class="stage-description" id="stageDescription">Start by learning about the donation process and how to find reliable information.</p>
+                <div class="expect-box">
+                  <div class="expect-heading"><span aria-hidden="true">✦</span> WHAT TO KNOW</div>
+                  <ul id="stagePoints"></ul>
+                </div>
+                <div class="remember-box"><span aria-hidden="true">i</span><p id="stageRemember">If you have a question about your health or eligibility, ask qualified blood bank staff.</p></div>
+              </div>
+              <div class="detail-visual" id="detailVisual" aria-hidden="true">
+                <div class="visual-number">01</div>
+                <div class="visual-circle circle-back"></div>
+                <div class="visual-circle circle-front"></div>
+                <div class="visual-illustration">♡</div>
+                <div class="visual-caption"><span class="visual-caption-icon">✳</span><span><strong id="visualCaptionTitle">A clear start to your visit</strong><small id="visualCaptionText">Check official instructions and ask questions before you go.</small></span></div>
+              </div>
+            </div>
+            <div class="journey-detail-footer">
+              <div class="progress-wrap"><div class="progress-meta"><span>Journey progress</span><strong id="progressText">1 of 6</strong></div><div class="progress-track"><span id="progressFill"></span></div></div>
+              <div class="journey-controls"><button type="button" class="button button-outline button-small" id="prevStep" disabled>← Previous</button><button type="button" class="button button-primary button-small" id="nextStep">Next stage →</button></div>
+            </div>
+          </article>
+        </div>
+        <p class="medical-note"><span aria-hidden="true">ⓘ</span> This guide summarises the centre's publicly available process page. The exact steps, eligibility decision and advice for an individual donor come from the authorised staff at the centre. Please have Hedgewar Blood Centre review this student-made guide before public use. <a href="https://www.hedgewarbloodbanknagpur.org/bloodDonationProcess.php" target="_blank" rel="noopener noreferrer">Read the original process page ↗</a></p>
+      </div>
+    </section>
+
+
+
+    <!-- AFTERCARE AND WHAT HAPPENS TO DONATED BLOOD -->
+    <section class="section aftercare-section section-anchor" id="aftercare">
+      <div class="container">
+        <div class="section-heading split-heading">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-dot"></span> After the donation</div>
+            <h2>Your journey continues<br /><em>after the chair.</em></h2>
+          </div>
+          <p>The centre's published guidance covers both the donor's recovery and the screening and processing of donated blood. These are two different parts of the safety journey.</p>
+        </div>
+
+        <div class="aftercare-grid">
+          <article class="aftercare-card aftercare-donor-card">
+            <div class="aftercare-card-top"><span class="aftercare-icon">♡</span><span class="card-kicker">FOR THE DONOR</span></div>
+            <h3>Recovery & aftercare</h3>
+            <p class="aftercare-intro">Dr. Hedgewar's published process page includes the following general aftercare instructions. Follow the specific guidance given to you by the blood bank team.</p>
+            <ul class="aftercare-list">
+              <li><span>01</span><div><strong>Hydrate and eat</strong><p>The page advises drinking an extra two to three glasses of water and eating nutritious food.</p></div></li>
+              <li><span>02</span><div><strong>Keep the bandage dry</strong><p>The published guidance says to keep the bandage on and dry for 10–12 hours.</p></div></li>
+              <li><span>03</span><div><strong>Take it easy for the rest of the day</strong><p>The page advises avoiding heavy lifting and vigorous exercise for the rest of the day, and avoiding smoking or alcohol after donation.</p></div></li>
+              <li><span>04</span><div><strong>Speak up about concerns</strong><p>Tell the staff promptly if you feel unwell during the visit. Contact the centre or a health professional if you have concerns after leaving.</p></div></li>
+            </ul>
+            <p class="card-source">Source: <a href="https://www.hedgewarbloodbanknagpur.org/bloodDonationProcess.php" target="_blank" rel="noopener noreferrer">Hedgewar Blood Donation Process ↗</a></p>
+          </article>
+
+          <article class="aftercare-card aftercare-lab-card">
+            <div class="aftercare-card-top"><span class="aftercare-icon">⌕</span><span class="card-kicker">BEHIND THE SCENES</span></div>
+            <h3>Screening & blood safety</h3>
+            <p class="aftercare-intro">A donation is not simply collected and handed directly to a patient. The centre's donor consent information describes screening tests that are part of its blood-safety process.</p>
+            <div class="test-chip-grid">
+              <span>HIV 1 & 2</span><span>Hepatitis B</span><span>Hepatitis C</span><span>Syphilis</span><span>Malaria</span>
+            </div>
+            <div class="screening-note"><strong>Important distinction</strong><p>The centre's consent page says these are screening tests and that confirmatory tests are needed to confirm a diagnosis. This website cannot interpret test results or provide medical advice.</p></div>
+            <p class="card-source">Source: <a href="https://hedgewarbloodbanknagpur.org/regDonor.php" target="_blank" rel="noopener noreferrer">Official donor consent page ↗</a></p>
+          </article>
+        </div>
+
+        <div class="components-block">
+          <div class="components-heading"><div><div class="eyebrow"><span class="eyebrow-dot"></span> More than one product</div><h3>Blood components the centre lists</h3></div><p>The centre lists services involving these blood components. Not every whole-blood donation automatically produces each item; processing and clinical use depend on the blood centre's procedures and the patient's needs.</p></div>
+          <div class="component-grid">
+            <article class="component-card"><span class="component-symbol component-red">●</span><h4>Packed red cells</h4><p>Red blood cells help carry oxygen to the body's tissues.</p></article>
+            <article class="component-card"><span class="component-symbol component-yellow">✣</span><h4>Platelet concentrate</h4><p>Platelets help the blood form clots.</p></article>
+            <article class="component-card"><span class="component-symbol component-gold">◒</span><h4>Fresh frozen plasma</h4><p>Plasma contains proteins, including clotting factors.</p></article>
+            <article class="component-card"><span class="component-symbol component-pink">✦</span><h4>Single-donor platelets</h4><p>A specialised platelet collection service listed by the centre, distinct from routine whole-blood donation.</p></article>
+          </div>
+          <p class="card-source component-source">Services listed by the centre: <a href="https://www.hedgewarbloodbanknagpur.org/" target="_blank" rel="noopener noreferrer">official home page ↗</a>. Component descriptions here are a general educational summary and should be reviewed by the centre.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq-section section-anchor" id="questions">
+      <div class="container faq-grid">
+        <div class="faq-intro">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> A few helpful answers</div>
+          <h2>Questions are<br /><em>always welcome.</em></h2>
+          <p>It's normal to have questions, especially if this is your first time learning about donation. Here are a few starting points.</p>
+          <a href="#feedback" class="text-link">Didn't find your answer? Tell us <span>↗</span></a>
+          <div class="faq-side-illustration" aria-hidden="true"><span class="faq-bubble bubble-one">?</span><span class="faq-bubble bubble-two">!</span><span class="faq-heart">♡</span></div>
+        </div>
+        <div class="faq-list" id="faqList">
+          <details class="faq-item" open>
+            <summary><span>How long does the visit at Hedgewar usually take?</span><span class="faq-plus" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>The centre's published process page says the full visit—from arrival until leaving—usually takes around an hour, while the donation itself averages 5–10 minutes. Your actual visit can vary, so follow the team's guidance. <a href="https://www.hedgewarbloodbanknagpur.org/bloodDonationProcess.php" target="_blank" rel="noopener noreferrer">Official process ↗</a></p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>What happens during registration and counselling?</span><span class="faq-plus" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>The centre's published description says staff sign donors in, go over basic eligibility criteria, share donation information and conduct a private, confidential interview about health history. Ask staff if any part of the process is unclear.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>What checks are described on the official process page?</span><span class="faq-plus" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>The published page lists checks of temperature, pulse, blood pressure and haemoglobin. These checks do not mean this website can decide eligibility; only authorised staff at the centre can make that assessment.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>Which screening tests are mentioned in donor consent?</span><span class="faq-plus" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>The centre's online donor consent page lists screening for HIV 1 and 2, hepatitis B, hepatitis C, syphilis and malaria. The page notes that screening tests are not the same as confirmatory diagnostic tests. <a href="https://hedgewarbloodbanknagpur.org/regDonor.php" target="_blank" rel="noopener noreferrer">Read donor consent ↗</a></p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>What happens after the donation is collected?</span><span class="faq-plus" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>The centre lists services involving packed red cells, platelet concentrate, fresh frozen plasma and single-donor platelet concentrate. The blood centre's own screening and processing procedures determine how each donation is handled.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>Can this website tell me whether I am eligible to donate?</span><span class="faq-plus" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>No. Eligibility needs an assessment by authorised blood bank staff using current guidance and your circumstances. Even if you read the centre's online eligibility page, confirm any questions directly with its medical team.</p><p><a href="https://www.hedgewarbloodbanknagpur.org/BloodDonateEligibility.php" target="_blank" rel="noopener noreferrer">Read the centre's published eligibility page ↗</a></p></div>
+          </details>
+          <details class="faq-item">
+            <summary><span>Where can I register or confirm the process?</span><span class="faq-plus" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>Use the centre's official website or contact it directly. The donor registration form requests personal details, so enter them only on the official website—not into this student CEP website.</p><p><a href="https://hedgewarbloodbanknagpur.org/regDonor.php" target="_blank" rel="noopener noreferrer">Official donor registration ↗</a> · <a href="https://www.hedgewarbloodbanknagpur.org/contactUs.php" target="_blank" rel="noopener noreferrer">Official contact details ↗</a></p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUIZ -->
+    <section class="section quiz-section section-anchor" id="quiz">
+      <div class="container">
+        <div class="quiz-banner">
+          <div class="quiz-heading">
+            <div class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> Quick knowledge check</div>
+            <h2>What have you<br /><em>learned so far?</em></h2>
+            <p>A short quiz helps you revisit the main ideas from this website. It's for learning—not for deciding medical eligibility.</p>
+            <div class="quiz-perks"><span>✦ 6 questions</span><span>✦ Instant explanations</span></div>
+          </div>
+          <div class="quiz-panel">
+            <div class="quiz-panel-top"><span id="quizQuestionCounter">QUESTION 1 OF 6</span><div class="quiz-mini-track"><span id="quizProgress"></span></div></div>
+            <div id="quizContent" class="quiz-content"><!-- Filled by script.js --></div>
+            <div id="quizFeedback" class="quiz-feedback" aria-live="polite"></div>
+            <div class="quiz-actions"><button class="button button-quiet button-small" type="button" id="quizBack" disabled>← Back</button><button class="button button-primary button-small" type="button" id="quizNext">Check answer →</button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEEDBACK -->
+    <section class="section feedback-section section-anchor" id="feedback">
+      <div class="container feedback-grid">
+        <div class="feedback-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> Your voice matters</div>
+          <h2>Help us make<br /><em>this better.</em></h2>
+          <p>Did the journey make the process easier to understand? Your feedback helps our student team find what works and what needs improvement.</p>
+          <div class="feedback-promises">
+            <div><span class="promise-icon">✓</span><span><strong>Quick to complete</strong><small>A few short questions</small></span></div>
+            <div><span class="promise-icon">♡</span><span><strong>No name required</strong><small>Please don't include private medical details</small></span></div>
+            <div><span class="promise-icon">↗</span><span><strong>Helps us improve</strong><small>Your suggestions shape the next version</small></span></div>
+          </div>
+          <div class="feedback-side-note"><span aria-hidden="true">✳</span><p><strong>Building this together.</strong><br />This website is being developed as a Community Engagement Project with a focus on awareness, accessibility and learning.</p></div>
+        </div>
+
+        <div class="feedback-card">
+          <div class="form-heading"><div><span class="form-kicker">FEEDBACK FORM</span><h3>Share your experience</h3></div><span class="form-decoration" aria-hidden="true">♡</span></div>
+          <p class="form-description">Tell us a little about your visit. Fields marked <span aria-hidden="true">*</span> are required.</p>
+          <form id="feedbackForm">
+            <fieldset class="form-fieldset">
+              <legend>1. Which best describes you? <span>*</span></legend>
+              <div class="choice-grid">
+                <label class="choice-card"><input type="radio" name="visitorType" value="Learning for the first time" required /><span class="choice-radio"></span><span>Learning for the first time</span></label>
+                <label class="choice-card"><input type="radio" name="visitorType" value="Have donated before" /><span class="choice-radio"></span><span>Have donated before</span></label>
+                <label class="choice-card"><input type="radio" name="visitorType" value="Exploring for awareness" /><span class="choice-radio"></span><span>Exploring for awareness</span></label>
+              </div>
+            </fieldset>
+            <fieldset class="form-fieldset">
+              <legend>2. How useful was this website? <span>*</span></legend>
+              <div class="rating-row" role="radiogroup" aria-label="Website usefulness rating">
+                <label class="rating-option"><input type="radio" name="rating" value="1" required /><span>1</span></label>
+                <label class="rating-option"><input type="radio" name="rating" value="2" /><span>2</span></label>
+                <label class="rating-option"><input type="radio" name="rating" value="3" /><span>3</span></label>
+                <label class="rating-option"><input type="radio" name="rating" value="4" /><span>4</span></label>
+                <label class="rating-option"><input type="radio" name="rating" value="5" /><span>5</span></label>
+              </div>
+              <div class="rating-labels"><span>Not useful</span><span>Very useful</span></div>
+            </fieldset>
+            <div class="form-field">
+              <label for="helpfulSection">3. Which section helped you most? <span>*</span></label>
+              <select id="helpfulSection" name="helpfulSection" required>
+                <option value="" selected disabled>Select a section</option>
+                <option>Interactive donation journey</option>
+                <option>Frequently asked questions</option>
+                <option>Quick knowledge quiz</option>
+                <option>Aftercare information</option>
+                <option>Overall website design</option>
+              </select>
+            </div>
+            <fieldset class="form-fieldset">
+              <legend>4. Is the process clearer now? <span>*</span></legend>
+              <div class="stacked-choices">
+                <label><input type="radio" name="clarity" value="Yes, much clearer" required /><span>Yes, much clearer</span></label>
+                <label><input type="radio" name="clarity" value="A little clearer" /><span>A little clearer</span></label>
+                <label><input type="radio" name="clarity" value="I still have questions" /><span>I still have questions</span></label>
+              </div>
+            </fieldset>
+            <div class="form-field">
+              <label for="suggestions">5. Any suggestions for us? <span class="optional-label">OPTIONAL</span></label>
+              <textarea id="suggestions" name="suggestions" rows="3" maxlength="700" placeholder="What did you find useful? What could we improve?"></textarea>
+              <div class="field-hint">Please do not include private medical details.</div>
+            </div>
+            <button type="submit" class="button button-primary submit-button">Submit feedback <span aria-hidden="true">↗</span></button>
+            <p class="privacy-note"><span aria-hidden="true">▣</span> Feedback is sent to the project Google Sheet. Please do not include names or private medical details.</p>
+            <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT / CTA -->
+    <section class="closing-section">
+      <div class="container closing-inner">
+        <div class="closing-symbol" aria-hidden="true"><svg viewBox="0 0 36 42"><path d="M18 2C14 9 4 19 4 27a14 14 0 0 0 28 0C32 19 22 9 18 2Z" fill="currentColor"/><path d="M11 27c0-4 3-8 6-11" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2.5" opacity=".78"/></svg></div>
+        <p class="closing-kicker">DROP BY DROP · CEP PROJECT</p>
+        <h2>Learn more. Ask questions.<br /><em>Pass awareness on.</em></h2>
+        <p class="closing-copy">Created as a student-led community awareness resource. Medical content and any organisation details should be verified with the project guide and Hedgewar Blood Bank before public launch.</p>
+        <a class="button button-light" href="#home">Back to top ↑</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 36 42"><path d="M18 2C14 9 4 19 4 27a14 14 0 0 0 28 0C32 19 22 9 18 2Z" fill="currentColor"/><path d="M11 27c0-4 3-8 6-11" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2.5" opacity=".78"/></svg></span><span class="brand-copy"><strong>drop by drop</strong><small>Blood donation awareness</small></span></a>
+      <p>Student CEP project · Educational information only.</p>
+      <div class="footer-links"><a href="https://www.hedgewarbloodbanknagpur.org/" class="footer-link" target="_blank" rel="noopener noreferrer">Official blood centre ↗</a><a href="#feedback" class="footer-link">Share feedback ↗</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="currentYear"></span> · Student CEP project</span><span>Based on public pages checked October 2026 · Not a substitute for professional medical advice.</span></div>
+  </footer>
+</body>
+</html>
