@@ -122,6 +122,8 @@ Built with lightweight web technologies and Google services.
 
 ---
 
+---
+
 ## 🚀 Getting Started
 
 <details>
@@ -137,39 +139,50 @@ Built with lightweight web technologies and Google services.
 
 **1. Download the project**
 
-Open the [GitHub repository](https://github.com/01patilA04/blood-donation-cep), click **Code → Download ZIP**, and extract the downloaded file.
+Visit the [GitHub repository](https://github.com/01patilA04/blood-donation-cep), click **Code → Download ZIP**, and extract the downloaded file.
 
-**2. Open the project in VS Code**
+**2. Open the project**
 
-Select **File → Open Folder** and choose the extracted project folder containing `index.html`, `css/` and `js/`.
+Open VS Code, select **File → Open Folder**, and choose the extracted folder containing `index.html`, `css/` and `js/`.
 
-**3. Start the website**
+**3. Run the website**
 
-Right-click `index.html` and choose **Open with Live Server** if the extension is installed. Alternatively, open `index.html` directly in your browser.
+Right-click `index.html` and select **Open with Live Server** if the extension is installed. Alternatively, open `index.html` directly in your browser.
 
-**4. Explore the features**
+**4. Test the features**
 
-Test the six-stage donation journey, FAQs, quiz, mobile navigation and feedback form.
+Explore the six-stage donation journey, FAQs, quiz, mobile navigation and feedback form.
 
-**5. Verify feedback submission**
+**5. Verify feedback collection**
 
-Submit a test response and check the `Responses` tab in the connected Google Sheet.
+Submit a sample response and check that a new row appears in the `Responses` tab of the connected Google Sheet.
 
 ### Important notes
 
-- Live Server is only for local development; it does not host the public website.
-- The published website is hosted by GitHub Pages.
-- An internet connection is needed for online resources and feedback submission.
-- The feedback service must remain correctly configured and deployed for submissions to reach Google Sheets.
+- Live Server is for local development; it does not host the public website.
+- GitHub Pages hosts the published website.
+- An internet connection is needed for online resources and feedback submissions.
+- Feedback collection depends on the deployed Google Apps Script service.
 
-</details>
+</details> 
+---
 
 
-### The process in simple terms
-
-- **GitHub Pages** delivers your website to visitors.
-- **HTML, CSS and JavaScript** create the interface and its interactive features.
-- **Google Apps Script** processes feedback submissions.
-- **Google Sheets** stores the submitted responses for your team to review.
 
 ---
+
+## 👥 Team Members & Contributions
+
+This project was developed collaboratively as part of a Community Engagement Project (CEP) to promote blood donation awareness through an interactive website.
+
+| Team Member | Responsibilities |
+|---|---|
+| Member 1 — [Anushka Patil] | Website development, interactive features, responsive design, GitHub Pages deployment, feedback form integration, Google Apps Script and Google Sheets. |
+| Member 2 — [Shreeya] | Research on the blood donation process and collection of information from official sources. |
+| Member 3 — [Rudrani Gedam] | Content organisation, awareness information, FAQs and educational quiz content. |
+| Member 4 — [Chaitanya Korde] | Website testing, usability checks, feedback review and analysis of visitor responses. |
+| Member 5 — [Gouri Ollalwar] | Project report preparation, presentation slides and project documentation. |
+
+All team members contributed to project planning, review and the overall CEP objectives.
+
+
