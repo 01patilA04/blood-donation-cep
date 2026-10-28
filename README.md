@@ -32,6 +32,14 @@ Take a look at Drop by Drop in action.
 
 ---
 
+## 🌱 Why Drop by Drop?
+
+For first-time donors, understanding the blood donation process can
+feel unfamiliar. Drop by Drop presents the journey in a simple,
+interactive format so visitors can explore each stage, learn through
+FAQs and a short quiz, and share feedback about their experience.
+
+**Our goal:** Make reliable blood donation information easier to explore.
 ---
 
 ## ⚙️ How It Works
@@ -58,75 +66,7 @@ flowchart TD
     style H fill:#f0fdf4,stroke:#15803d,color:#166534
 ```
 
-## 🚀 Getting Started
 
-<details>
-<summary>💻 Click to expand setup instructions</summary>
-
-### Requirements
-
-- A web browser such as Chrome.
-- Visual Studio Code (recommended).
-- The Live Server extension in VS Code (optional).
-
-### Run the website locally
-
-**1. Download the project**
-
-Open the [GitHub repository](https://github.com/01patilA04/blood-donation-cep), click **Code → Download ZIP**, and extract the downloaded file.
-
-**2. Open the project in VS Code**
-
-Select **File → Open Folder** and choose the extracted project folder containing `index.html`, `css/` and `js/`.
-
-**3. Start the website**
-
-Right-click `index.html` and choose **Open with Live Server** if the extension is installed. Alternatively, open `index.html` directly in your browser.
-
-**4. Explore the features**
-
-Test the six-stage donation journey, FAQs, quiz, mobile navigation and feedback form.
-
-**5. Verify feedback submission**
-
-Submit a test response and check the `Responses` tab in the connected Google Sheet.
-
-### Important notes
-
-- Live Server is only for local development; it does not host the public website.
-- The published website is hosted by GitHub Pages.
-- An internet connection is needed for online resources and feedback submission.
-- The feedback service must remain correctly configured and deployed for submissions to reach Google Sheets.
-
-</details>
-
-
-### The process in simple terms
-
-- **GitHub Pages** delivers your website to visitors.
-- **HTML, CSS and JavaScript** create the interface and its interactive features.
-- **Google Apps Script** processes feedback submissions.
-- **Google Sheets** stores the submitted responses for your team to review.
-
----
-
-
-## 🌱 Why Drop by Drop?
-
-For first-time donors, understanding the blood donation process can
-feel unfamiliar. Drop by Drop presents the journey in a simple,
-interactive format so visitors can explore each stage, learn through
-FAQs and a short quiz, and share feedback about their experience.
-
-**Our goal:** Make reliable blood donation information easier to explore.
-
-
-
-
----
-
-
----
 
 ## 📊 Feedback System
 
@@ -179,3 +119,57 @@ Built with lightweight web technologies and Google services.
 | Live Server | Provides a local preview during development. |
 
 </details>
+
+---
+
+## 🚀 Getting Started
+
+<details>
+<summary>💻 Click to expand setup instructions</summary>
+
+### Requirements
+
+- A web browser such as Chrome.
+- Visual Studio Code (recommended).
+- The Live Server extension in VS Code (optional).
+
+### Run the website locally
+
+**1. Download the project**
+
+Open the [GitHub repository](https://github.com/01patilA04/blood-donation-cep), click **Code → Download ZIP**, and extract the downloaded file.
+
+**2. Open the project in VS Code**
+
+Select **File → Open Folder** and choose the extracted project folder containing `index.html`, `css/` and `js/`.
+
+**3. Start the website**
+
+Right-click `index.html` and choose **Open with Live Server** if the extension is installed. Alternatively, open `index.html` directly in your browser.
+
+**4. Explore the features**
+
+Test the six-stage donation journey, FAQs, quiz, mobile navigation and feedback form.
+
+**5. Verify feedback submission**
+
+Submit a test response and check the `Responses` tab in the connected Google Sheet.
+
+### Important notes
+
+- Live Server is only for local development; it does not host the public website.
+- The published website is hosted by GitHub Pages.
+- An internet connection is needed for online resources and feedback submission.
+- The feedback service must remain correctly configured and deployed for submissions to reach Google Sheets.
+
+</details>
+
+
+### The process in simple terms
+
+- **GitHub Pages** delivers your website to visitors.
+- **HTML, CSS and JavaScript** create the interface and its interactive features.
+- **Google Apps Script** processes feedback submissions.
+- **Google Sheets** stores the submitted responses for your team to review.
+
+---
