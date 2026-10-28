@@ -1,3 +1,37 @@
+
+<div align="center">
+
+# 🩸 Drop by Drop
+
+### Understand the journey. Spread awareness. Make information accessible.
+
+An interactive blood donation awareness website developed as a
+Community Engagement Project, based on publicly available information
+from Dr. Hedgewar Blood Centre, Nagpur.
+
+[![Live Demo](https://img.shields.io/badge/LIVE%20DEMO-Visit%20Website-b91c1c?style=for-the-badge)](https://01patilA04.github.io/blood-donation-cep/)
+
+[![HTML5](https://img.shields.io/badge/HTML5-Structure-e34f26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-Design-1572b6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-Interactions-f7df1e?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-222222?style=flat-square&logo=github)](https://pages.github.com/)
+
+</div>
+
+---
+
+## 🌱 Why Drop by Drop?
+
+For first-time donors, understanding the blood donation process can
+feel unfamiliar. Drop by Drop presents the journey in a simple,
+interactive format so visitors can explore each stage, learn through
+FAQs and a short quiz, and share feedback about their experience.
+
+**Our goal:** Make reliable blood donation information easier to explore.
+
+
+
+
 # Drop by Drop — Blood Donation Journey (CEP website)
 
 A responsive, front-end student project for blood donation awareness, customised around the public information published by Dr. Hedgewar Blood Centre, Nagpur.
