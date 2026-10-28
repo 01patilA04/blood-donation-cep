@@ -32,6 +32,42 @@ Take a look at Drop by Drop in action.
 
 ---
 
+---
+
+## ⚙️ How It Works
+
+Drop by Drop combines an interactive website with a cloud-based feedback system.
+
+```mermaid
+flowchart TD
+    A["Visitor opens the website"] --> B["GitHub Pages"]
+    B --> C["HTML, CSS and JavaScript"]
+    C --> D["Interactive Donation Journey"]
+    C --> E["FAQs and Knowledge Quiz"]
+    C --> F["Feedback Form"]
+    F --> G["Google Apps Script"]
+    G --> H[("Google Sheets - Responses")]
+
+    style A fill:#fff1f2,stroke:#b91c1c,color:#7f1d1d
+    style B fill:#f8fafc,stroke:#64748b,color:#1e293b
+    style C fill:#fff1f2,stroke:#b91c1c,color:#7f1d1d
+    style D fill:#ffffff,stroke:#dc2626,color:#7f1d1d
+    style E fill:#ffffff,stroke:#dc2626,color:#7f1d1d
+    style F fill:#fff1f2,stroke:#b91c1c,color:#7f1d1d
+    style G fill:#f8fafc,stroke:#64748b,color:#1e293b
+    style H fill:#f0fdf4,stroke:#15803d,color:#166534
+```
+
+### The process in simple terms
+
+- **GitHub Pages** delivers your website to visitors.
+- **HTML, CSS and JavaScript** create the interface and its interactive features.
+- **Google Apps Script** processes feedback submissions.
+- **Google Sheets** stores the submitted responses for your team to review.
+
+---
+
+
 ## 🌱 Why Drop by Drop?
 
 For first-time donors, understanding the blood donation process can
