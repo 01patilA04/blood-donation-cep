@@ -177,12 +177,24 @@ This project was developed collaboratively as part of a Community Engagement Pro
 
 | Team Member | Responsibilities |
 |---|---|
-| Member 1 — [Anushka Patil] | Website development, interactive features, responsive design, GitHub Pages deployment, feedback form integration, Google Apps Script and Google Sheets. |
-| Member 2 — [Shreeya] | Research on the blood donation process and collection of information from official sources. |
-| Member 3 — [Rudrani Gedam] | Content organisation, awareness information, FAQs and educational quiz content. |
-| Member 4 — [Chaitanya Korde] | Website testing, usability checks, feedback review and analysis of visitor responses. |
-| Member 5 — [Gouri Ollalwar] | Project report preparation, presentation slides and project documentation. |
+| Anushka Patil| Website development, interactive features, responsive design, GitHub Pages deployment, feedback form integration, Google Apps Script and Google Sheets. |
+| Shreeya | Research on the blood donation process and collection of information from official sources. |
+| Rudrani Gedam | Content organisation, awareness information, FAQs and educational quiz content. |
+| Chaitanya Korde | Website testing, usability checks, feedback review and analysis of visitor responses. |
+| Gouri Ollalwar | Project report preparation, presentation slides and project documentation. |
 
 All team members contributed to project planning, review and the overall CEP objectives.
+
+---
+
+
+---
+
+## ✅ Conclusion
+
+Drop by Drop combines interactive web technologies with community awareness to make the blood donation process easier to explore. Through its donation journey, FAQs, educational quiz and feedback system, the project provides an accessible learning experience while collecting responses to help identify areas for improvement.
+
+The project demonstrates how HTML, CSS, JavaScript, GitHub Pages, Google Apps Script and Google Sheets can work together to build and publish a practical educational website.
+
 
 
