@@ -58,6 +58,49 @@ flowchart TD
     style H fill:#f0fdf4,stroke:#15803d,color:#166534
 ```
 
+## 🚀 Getting Started
+
+<details>
+<summary>💻 Click to expand setup instructions</summary>
+
+### Requirements
+
+- A web browser such as Chrome.
+- Visual Studio Code (recommended).
+- The Live Server extension in VS Code (optional).
+
+### Run the website locally
+
+**1. Download the project**
+
+Open the [GitHub repository](https://github.com/01patilA04/blood-donation-cep), click **Code → Download ZIP**, and extract the downloaded file.
+
+**2. Open the project in VS Code**
+
+Select **File → Open Folder** and choose the extracted project folder containing `index.html`, `css/` and `js/`.
+
+**3. Start the website**
+
+Right-click `index.html` and choose **Open with Live Server** if the extension is installed. Alternatively, open `index.html` directly in your browser.
+
+**4. Explore the features**
+
+Test the six-stage donation journey, FAQs, quiz, mobile navigation and feedback form.
+
+**5. Verify feedback submission**
+
+Submit a test response and check the `Responses` tab in the connected Google Sheet.
+
+### Important notes
+
+- Live Server is only for local development; it does not host the public website.
+- The published website is hosted by GitHub Pages.
+- An internet connection is needed for online resources and feedback submission.
+- The feedback service must remain correctly configured and deployed for submissions to reach Google Sheets.
+
+</details>
+
+
 ### The process in simple terms
 
 - **GitHub Pages** delivers your website to visitors.
@@ -81,6 +124,39 @@ FAQs and a short quiz, and share feedback about their experience.
 
 
 ---
+
+
+---
+
+## 📊 Feedback System
+
+Drop by Drop includes a feedback form that allows visitors to share their experience and help the project team evaluate the usefulness of the website.
+
+<details>
+<summary>🔍 Explore how feedback collection works</summary>
+
+### How it works
+
+1. **Visitor input:** A visitor submits their website rating, visitor type, most helpful section, process clarity and optional suggestions.
+2. **Form processing:** JavaScript validates the required fields and prepares the submitted data.
+3. **Data transfer:** The website sends the feedback to a deployed Google Apps Script web app.
+4. **Data storage:** Apps Script appends the submission, along with a timestamp, to the `Responses` sheet in Google Sheets.
+5. **Review:** The project team checks the collected responses to understand visitor experiences and identify improvements.
+
+### Technologies involved
+
+- **JavaScript:** Collects the form values and sends the submission.
+- **Google Apps Script:** Processes the request and writes the data.
+- **Google Sheets:** Stores feedback centrally for the project team.
+
+### Important limitations
+
+The website uses `no-cors` mode, so the browser cannot read the service response to automatically confirm that a submission was saved. Successful submissions should be verified in Google Sheets.
+
+The form is intended for website feedback, not medical records or sensitive personal information. Access to the response spreadsheet should remain restricted.
+
+</details>
+
 
 ## 🧰 Technology Stack
 
