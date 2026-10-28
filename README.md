@@ -20,6 +20,18 @@ from Dr. Hedgewar Blood Centre, Nagpur.
 
 ---
 
+---
+
+## 👀 Website Preview
+
+Take a look at Drop by Drop in action.
+
+![Drop by Drop homepage](assets/homepage-preview.png)
+
+🌐 **[Visit the Live Website →](https://01patilA04.github.io/blood-donation-cep/)**
+
+---
+
 ## 🌱 Why Drop by Drop?
 
 For first-time donors, understanding the blood donation process can
